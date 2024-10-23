@@ -1,0 +1,118 @@
+body {
+  background-color: black; /*background of containers*/
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}
+
+/*picture of the shoes*/
+.product-card {
+  display: flex;
+  width: 800px;
+  height: 500px;
+  margin: 120px;
+  margin-bottom: 80px;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.left-img-col {
+  flex: 1;
+}
+
+.left-img-col img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.right-info-col {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  color: black;
+}
+
+/*Jordan Proto-Lyte*/
+.right-info-col h3 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  color: black;
+}
+
+/*Running Collection*/
+.right-info-col h5 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: lightgray;
+}
+
+/*product description*/
+.right-info-col p {
+  font-size: 14px;
+  padding-left: 50px;
+  margin-bottom: 20px;
+}
+
+/*text for available colors*/
+.available-colors {
+  font-size: 14px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.available-colors span {
+  vertical-align: middle;
+}
+
+/*color circles*/
+.black-color-container,
+.red-color-container,
+.white-color-container {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-left: 40px;
+  border-radius: 50%;
+}
+
+.black-color-container {
+  background-color: black;
+}
+
+.red-color-container {
+  background-color: red;
+}
+
+.white-color-container {
+  /*beige*/
+  background-color: beige;
+}
+
+/*price and buy button*/
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/*cost text size*/
+.price h4 {
+  font-size: 32px;
+}
+
+/*buy button dimensions*/
+.buy-btn {
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  color: lightgray;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 15px;
+}
+
+.buy-btn:hover {
+  background-color: red;
+}
